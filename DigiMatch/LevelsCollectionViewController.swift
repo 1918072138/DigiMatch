@@ -33,7 +33,7 @@ class LevelsCollectionViewController: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! LevelsCollectionViewCell
-        cell.layer.cornerRadius = 92.0
+        cell.layer.cornerRadius = 10.0
         cell.backgroundColor = .orange
         cell.label.text = levels[indexPath.row]
         cell.label.sizeToFit()

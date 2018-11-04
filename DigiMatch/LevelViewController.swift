@@ -323,6 +323,7 @@ class LevelViewController: UIViewController {
                 temp += 1
             }
         }
+        resetLevel(self)
         return true
     }
     
